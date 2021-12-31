@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+.contact_text {
+  font-size: 20px;
+  padding-left: 100px;
+  color: #fcebb6;
+  letter-spacing: 3px;
+}
+
+span{
+  font-size:15px;
+  vertical-align: middle;
+  margin-left:20px;
+}
+
+.required{
+  background-color: rgb(248, 46, 46);
+  color:white;
+}
+
+form {
+  margin: 50px 0 0 100px;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  font-size: 35px;
+  color: #fcebb6;
+  line-height:90px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 20%;
+  background: rgba(255, 255, 255, 0.37);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding:10px 0;
+}
+
+textarea {
+  height: 70px;
+  resize: none;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.error{
+  color:rgb(250, 54, 54);
+  font-size: 20px;
+}
+
+form .but{
+  margin: 30px 0 0 180px;
+}
+
+button{
+  padding: 5px 30px;
+  font-size: 30px;
+  border: none;
+  border-radius:15px;
+  background-color: #FAB341;
+  color: #5E412F;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+button:hover{
+  background-color: #b18031;
+  color: #35241a;
+  transition: 0.7s;
+}
+
